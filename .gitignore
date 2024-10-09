@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -164,3 +165,8 @@ cython_debug/
 # ignore git commit for visual studio cofigs
 .vscode/
 setting.json
+=======
+# ignore conf files
+.vscode
+settings.json
+>>>>>>> fc1ca02b2e01363d9174bc681b29e1532b258853
