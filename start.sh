@@ -6,6 +6,6 @@ sleep 2s
 		
 # Only the config listed below will be avtivated
 # if you want to combine with another theme, write the command here
-conky -c $HOME/.config/conky/monochrome/scripts/applications.conf &> /dev/null &
+conky -c $HOME/.config/conky/akemi/scripts/style.conf &> /dev/null &
 
 exit

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# A simple script to display wifi name
+# 'ssid -i' = with icon, 'ssid' = text only
+# Cheers!
+# Addy
+
+SSID_NAME=$0
+
+if [[ "${SSID_NAME}" =~ "eth|enp" ]]; then
+  if [[ $1 = "-i" ]]; then
+    echo "  ${SSID_NAME}"  # Icono para Ethernet
+  else
+    echo "${SSID_NAME}"
+  fi
+elif [[ "${SSID_NAME}" =~ "tun0" ]]; then
+  if [[ $1 = "-i" ]]; then
+    echo "  ${SSID_NAME}"  # Icono para Wi-Fi
+  else
+    echo "${SSID_NAME}"
+  fi
+else
+  echo "None"
+fi
+
+exit
