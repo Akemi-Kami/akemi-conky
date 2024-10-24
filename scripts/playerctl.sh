@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Closebox73
+# By Closebox73
 # Simple script to get playerctl status
 
 PCTL=$(playerctl status)

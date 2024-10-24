@@ -3,7 +3,6 @@
 # A simple script to show if it's wifi or ethernet
 # By AkemiKami201
 
-# Detectar si hay conexión WiFi o Ethernet
 WIFI_SSID=$(/sbin/iwgetid -r)  # WiFi network name, if connected
 ETH_INTERFACE=$(ip link | grep -oP 'en\w+')  # detect ethernet interfaces
 
