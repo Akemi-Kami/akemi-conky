@@ -5,8 +5,13 @@
 # Khiky_merveilles
 
 SSID_NAME=$(/sbin/iwgetid -r)
+ETH_INTERFACE=$(ip link | grep -oP 'en\w+')
+
+ETH_IP=$(ip -o -4 addr show dev ${ETH_INTERFACE} | awk '{print $4}' | cut -d/ -f1)
 
 if [[ "${SSID_NAME}" != "" ]]; then
+    echo ""
+elif [[ "$ETH_IP" != "" ]]; then
     echo ""
 else
 echo ""
