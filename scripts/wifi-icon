@@ -2,7 +2,7 @@
 
 # A simple script to display wifi icon connected or not
 # Enjoy!
-# Khiky_merveilles
+# Modified by AkemiKami201
 
 SSID_NAME=$(/sbin/iwgetid -r)
 ETH_INTERFACE=$(ip link | grep -oP 'en\w+')

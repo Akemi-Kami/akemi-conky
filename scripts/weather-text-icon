@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# I create this scripts to show weather icon with text icon
-# and take data from json file, so it can use offline
+# By Closebox73
+# take data from json file, so it can use offline
 # the font i use Feather icon font  { https://github.com/AT-UI/feather-font }
 # to get weather.json file i use another script
 
