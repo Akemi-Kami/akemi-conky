@@ -1,15 +1,15 @@
 # 📌 Akemi theme for conky
 
 ### 🔆 Description: 
-This is my first theme for conky, so it might have some bugs. 
+This is my first theme for conky, so it might have some bugs. _**You need to have ConkyManager installed**_.
 Instalation see [How to apply](https://closebox73.wordpress.com/2024/01/02/how-to-apply) if there is an error please read it again.
 
-1. Download the file
+1. Download the [file](https://github.com/user-attachments/files/17500751/akemi-theme-v1.zip)
 2. unzip and copy into ~./home/user/config/conky/ or ~/home/user/.conky/
 3. Open ConkyManager y apply the theme.
 
 **✭ Note:** Change the city_id in file _**weather-v2.0.sh**_ ([search your city here](https://openweathermap.org/find) and replace), try to use your own api_key.
-For the internet speed, change the line number 74 and 75 in _**akemi.conf**_. *enp2s0* for me, search and replace. In your terminal use: 
+For the internet speed, change the line number 74 in _**akemi.conf**_. *enp2s0* for me, search and replace. In your terminal use: 
 > ip -br l | awk '$1 !~ "lo|vir|wl" { print $1}'
 
 ##
